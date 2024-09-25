@@ -22,15 +22,15 @@ void main(List<String> args) {
     print("Üzgünüz not ortalamanız $notOrtalama ve dersten geçemediniz");
   }
   //Cevap 1-------------------------------------
-  // print("birinci sayiyi giriniz");
-  // int birinciSayi = int.parse(stdin.readLineSync()!);
+  print("birinci sayiyi giriniz");
+  int birinciSayi = int.parse(stdin.readLineSync()!);
 
-  // print("ikinci sayiyi giriniz");
-  // int ikinciSayi = int.parse(stdin.readLineSync()!);
+  print("ikinci sayiyi giriniz");
+  int ikinciSayi = int.parse(stdin.readLineSync()!);
 
-  // print("üçüncü sayiyi giriniz");
-  // int ucuncuSayi = int.parse(stdin.readLineSync()!);
+  print("üçüncü sayiyi giriniz");
+  int ucuncuSayi = int.parse(stdin.readLineSync()!);
 
-  // double ortalama = (birinciSayi + ikinciSayi + ucuncuSayi) / 3;
-  // print("girdiğiniz $birinciSayi, $ikinciSayi ve $ucuncuSayi sayılarının ortalaması $ortalama");
+  double ortalama = (birinciSayi + ikinciSayi + ucuncuSayi) / 3;
+  print("girdiğiniz $birinciSayi, $ikinciSayi ve $ucuncuSayi sayılarının ortalaması $ortalama");
 }
